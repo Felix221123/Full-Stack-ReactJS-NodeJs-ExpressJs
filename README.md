@@ -41,11 +41,26 @@ Ensure you have Node.js and npm installed on your machine. You can download and 
 
 2. **Install backend dependencies**
 
-   Navigate to the `backend` folder and run:
+   Navigate to the `backend` folder and run to install the typescript compatible with the typescript:
 
    ```sh
    cd backend
-   npm install
+   npm install eslint@8.56.0 
+   ```
+
+   Install peer dependency using the run script:
+   ```sh
+    npm install --legacy-peer-deps
+   ```
+
+   Install nodemon dependency globally using the run script:
+   ```sh
+    npm install -g nodemon
+   ```
+
+   Install typescript dependency using the run script:
+   ```sh
+    npm install typescript ts-node --save-dev
    ```
 
 3. **Install frontend dependencies**
@@ -69,6 +84,19 @@ Ensure you have Node.js and npm installed on your machine. You can download and 
    ```
 
    The backend server will start, typically running on `http://localhost:5000`.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 2. **Start the frontend development server**
 
