@@ -1,9 +1,10 @@
 import './App.css'
 
 function App() {
+
   return (
     <>
-      <div>hello world</div>
+      <div className='items-center'>Hello world</div>
     </>
   )
 }
