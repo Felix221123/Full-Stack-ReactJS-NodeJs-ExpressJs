@@ -8,14 +8,12 @@ This is a React template project using Vite, Vitest for unit testing, and Tailwi
 - **Vite**: A fast build tool and development server.
 - **Vitest**: A fast unit test framework.
 - **Tailwind CSS**: A utility-first CSS framework.
-- **ESLint**: A tool for identifying and reporting on patterns in JavaScript.
-- **Prettier**: A code formatter.
 
 ## Prerequisites
 
 Make sure you have the following software installed on your system:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [Node.js](https://nodejs.org/) (version 20 or higher)
 - [npm](https://www.npmjs.com/) (version 6 or higher) or [yarn](https://yarnpkg.com/)
 
 ## Getting Started
@@ -123,4 +121,5 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 ---
 
 Happy coding!
+
 
