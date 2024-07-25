@@ -87,17 +87,6 @@ Ensure you have Node.js and npm installed on your machine. You can download and 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 2. **Start the frontend development server**
 
    Navigate to the `frontend` folder and run the following command to start the React development server:
@@ -108,6 +97,7 @@ Ensure you have Node.js and npm installed on your machine. You can download and 
    ```
 
    The frontend development server will start, typically running on `http://localhost:3000`.
+
 
 ### Additional Scripts
 

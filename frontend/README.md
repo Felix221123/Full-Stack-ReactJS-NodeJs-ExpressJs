@@ -7,14 +7,16 @@ This is a React template project using Vite, Vitest for unit testing, and Tailwi
 - **React**: A JavaScript library for building user interfaces.
 - **Vite**: A fast build tool and development server.
 - **Vitest**: A fast unit test framework.
+- **Cypress**: A fast end to end testing framework for testing javascript framework
 - **Tailwind CSS**: A utility-first CSS framework.
+- **ESLint**: A tool for identifying and reporting on patterns in JavaScript.
 
 ## Prerequisites
 
 Make sure you have the following software installed on your system:
 
 - [Node.js](https://nodejs.org/) (version 20 or higher)
-- [npm](https://www.npmjs.com/) (version 6 or higher) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/) (version 10 or higher) or [yarn](https://yarnpkg.com/)
 
 ## Getting Started
 
@@ -77,6 +79,21 @@ Or using yarn:
 
 ```sh
 yarn test
+```
+### Unit Tests with Cypress
+
+To run unit tests using Cypress, use the following command:
+
+Using npm:
+
+```sh
+npm run cy:open
+```
+
+Or using yarn:
+
+```sh
+yarn cy:open
 ```
 
 ## Tailwind CSS
