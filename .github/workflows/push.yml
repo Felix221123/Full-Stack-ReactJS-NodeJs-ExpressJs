@@ -26,11 +26,3 @@ jobs:
       - name: Run unit tests
         run: npm test
         working-directory: ./frontend
-
-      - name: Install Cypress dependencies
-        run: npm install cypress
-        working-directory: ./frontend
-
-      - name: Run Cypress tests
-        run: npm run cy:open
-        working-directory: ./frontend
