@@ -6,13 +6,13 @@ runs:
   using: "composite"
   steps:
     - name: Run unit tests for backend using jest framework
-        if: ${{ matrix.dir == 'backend' }}
-        working-directory: backend
+        if: ${{ matrix.dir == './backend' }}
+        working-directory: ./backend
         shell: bash
         run: npm run test
 
     - name: Run unit tests for client using vitest framework
-      if: ${{ matrix.dir == 'client' }}
-      working-directory: client
+      if: ${{ matrix.dir == './client' }}
+      working-directory: ./client
       shell: bash
       run: npm run test
