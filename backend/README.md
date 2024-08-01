@@ -77,4 +77,3 @@ Ensure you have Node.js and npm installed on your machine. You can download and 
 ### Contributing
 
 If you wish to contribute to this project, please fork the repository and submit a pull request. I welcome all contributions!
-

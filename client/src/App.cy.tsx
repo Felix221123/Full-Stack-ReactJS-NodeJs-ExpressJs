@@ -1,4 +1,3 @@
-
 // @ts-expect-error ignore the next line
 import React from 'react'
 import App from './App'
@@ -6,7 +5,7 @@ import App from './App'
 describe('<App />', () => {
   it('renders', () => {
     // see: https://on.cypress.io/mounting-react
-    cy.mount(<App />);
-    cy.contains("hello world").should("exist")
+    cy.mount(<App />)
+    cy.contains('hello world').should('exist')
   })
 })
