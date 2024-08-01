@@ -1,0 +1,11 @@
+name: Build The Application
+
+description: Builds the entire application
+
+runs:
+  using: "composite"
+  steps:
+    - name: Run build scripts
+      shell: bash
+      run: npm run build
+      working-directory: ${{ matrix.dir }}

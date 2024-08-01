@@ -57,7 +57,7 @@ Or using yarn:
 yarn dev
 ```
 
-This will start the Vite development server and you can view the application in your browser by copying and pasting the 
+This will start the Vite development server and you can view the application in your browser by copying and pasting the
 
 ## Running Tests
 
@@ -80,6 +80,7 @@ Or using yarn:
 ```sh
 yarn test
 ```
+
 ### Unit Tests with Cypress
 
 To run unit tests using Cypress, use the following command:
@@ -130,7 +131,6 @@ yarn build
 
 This will create an optimized production build in the `dist` directory.
 
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
@@ -138,5 +138,3 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 ---
 
 Happy coding!
-
-

@@ -11,9 +11,12 @@
     "css": "npx tailwindcss -i ./src/index.css -o ./public/output.css --watch",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "format:style": "prettier . --write",
+    "lint:fix": "eslint src/**/*.ts --fix"
   },
   "dependencies": {
+    "prettier": "^3.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

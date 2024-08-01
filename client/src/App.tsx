@@ -3,10 +3,9 @@ import React from 'react'
 import './App.css'
 
 function App() {
-
   return (
     <>
-    <div className='font-bold uppercase'>hello world</div>
+      <div className="font-bold uppercase">hello world</div>
     </>
   )
 }

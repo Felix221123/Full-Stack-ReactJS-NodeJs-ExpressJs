@@ -1,0 +1,16 @@
+name: Install Node modules
+
+description: Validate a project when using Zero-Installs.
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install Node modules for backend
+        if: ${{ matrix.dir == 'backend' }}
+        working-directory: backend
+        run: npm install --legacy-peer-deps
+
+    - name: Install Node modules for client
+      if: ${{ matrix.dir == 'client' }}
+      working-directory: client
+      run: npm install
