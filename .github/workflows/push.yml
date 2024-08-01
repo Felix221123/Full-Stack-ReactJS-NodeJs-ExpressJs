@@ -20,7 +20,7 @@ jobs:
 
     strategy:
       matrix:
-        dir: [backend, client]
+        dir: [./backend, ./client]
 
     permissions:
       contents: write
@@ -55,7 +55,7 @@ jobs:
 
     strategy:
       matrix:
-        dir: [backend, client]
+        dir: [./backend, ./client]
 
     steps:
       - name: Checkout the Git repository
@@ -79,7 +79,7 @@ jobs:
 
     strategy:
       matrix:
-        dir: [backend, client]
+        dir: [./backend, ./client]
 
     steps:
       - name: Checkout code
