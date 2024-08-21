@@ -43,11 +43,6 @@ Ensure you have Node.js and npm installed on your machine. You can download and 
 
    Navigate to the `backend` folder and run to install the typescript compatible with the typescript:
 
-   ```sh
-   cd backend
-   npm install eslint@8.56.0 
-   ```
-
    Install peer dependency using the run script:
    ```sh
     npm install --legacy-peer-deps
